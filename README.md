@@ -26,13 +26,16 @@ It is sometimes beneficial to discard a learned clause that is too long. So in t
 They take turns running for 0.5 seconds, until one of them finds a satisfying assignment.
 
 ## How to Run
+Compile solver source code.
 ```
 $ make
 ```
 
+Run the solver.
 ```
-$ ./yasat <input.cnf>
+$ ./yasat filename.cnf
 ```
+The solver will read from `filename.cnf` and write result to `filename.sat`.
 
 ## Benchmark
 ### Environment
