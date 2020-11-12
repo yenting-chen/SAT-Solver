@@ -39,7 +39,7 @@ The solver will read from `filename.cnf` and write result to `filename.sat`.
 
 Remove solver and temporary files.
 ```
-make clean
+$ make clean
 ```
 
 ## Benchmark
