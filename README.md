@@ -14,7 +14,7 @@ Upon variable assignment, the lists are changed accordingly and checked to see i
 Variables are sorted in decreasing order of number of occurrences in clauses. The ordering is used to assign true/false values to variables, and the values assigned are randomized by using rand() and a static seed.
 
 ### Random Restart
-If the solver runs for more than 10 seconds, it is aborted and a new solver is created.
+If the solver runs for more than 100 seconds, it is aborted and a new solver is created.
 
 All previous results are discarded except for the learned clauses.
 
@@ -23,7 +23,7 @@ The variable ordering used in assignment heuristic is recalculated, based on bot
 ### Clause Learning Policy
 It is sometimes beneficial to discard a learned clause that is too long. So in this implementation, 5 solvers are created, numbered from 1 to 5, and the i-th solver discards a learned clause if the clause size is more than max⁡(5, n*i/5).
 
-They take turns running for 0.5 seconds, until one of them finds a satisfying assignment.
+They take turns running for 10 seconds, until one of them finds a satisfying assignment.
 
 ## How to Run
 Compile solver source code.
