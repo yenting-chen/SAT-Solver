@@ -37,6 +37,11 @@ $ ./yasat filename.cnf
 ```
 The solver will read from `filename.cnf` and write result to `filename.sat`.
 
+Remove solver and temporary files.
+```
+make clean
+```
+
 ## Benchmark
 ### Environment
 Windows 8.1 Enterprise 64-bit, i7-6700k, 16GB ram. Compiled with –/O2 optimization.
