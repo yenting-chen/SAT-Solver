@@ -13,7 +13,7 @@ Upon variable assignment, the lists are changed accordingly and checked to see i
 1-UIP cut and conflict clause is found by repeatedly resolving the current cut and a clause, and a simulation of variable assignment is done on the learned clause to update the list and table mentioned above.
 
 ### Heuristic
-- Variables are sorted in decreasing order of number of occurrences in clauses. The ordering is used to assign true/false values to variables, and the values assigned are randomized by using rand() and a static seed.
+Variables are sorted in decreasing order of number of occurrences in clauses. The ordering is used to assign true/false values to variables, and the values assigned are randomized by using rand() and a static seed.
 
 ### Random Restart
 If the solver runs for more than a certain period of time(10 seconds in this implementation), it is aborted and a new solver is created. All the previous results are discarded except for the learned clauses. The variable ordering used in assignment heuristic is recalculated also, based on both the original and learned clauses. Because the seed used in rand() is not reset, the restart is randomized.
