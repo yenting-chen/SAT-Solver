@@ -28,6 +28,9 @@ They take turns running for 0.5 seconds, until one of them finds a satisfying as
 ## How to Run
 ```
 $ make
+```
+
+```
 $ ./yasat <input.cnf>
 ```
 
