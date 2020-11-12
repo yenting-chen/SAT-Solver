@@ -44,7 +44,7 @@ $ make clean
 
 ## Benchmark
 ### Environment
-Windows 8.1 Enterprise 64-bit, i7-6700k, 16GB ram. Compiled with –/O2 optimization.
+Windows 8.1 Enterprise 64-bit, i7-6700k, 16GB RAM.
 
 ### Test Instances
 uniform random-3-sat problems from http://www.cs.ubc.ca/~hoos/SATLIB/benchm.html
