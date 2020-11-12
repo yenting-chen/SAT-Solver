@@ -14,7 +14,7 @@ Upon variable assignment, the lists are changed accordingly and checked to see i
 Variables are sorted in decreasing order of number of occurrences in clauses. The ordering is used to assign true/false values to variables, and the values assigned are randomized by using rand() and a static seed.
 
 ### Random Restart
-If the solver runs for more than a certain period of time (10 seconds in this implementation), it is aborted and a new solver is created.
+If the solver runs for more than 10 seconds, it is aborted and a new solver is created.
 
 All previous results are discarded except for the learned clauses.
 
