@@ -5,6 +5,7 @@ An implementation of Davis–Putnam–Logemann–Loveland (DPLL) algorithm for s
 ### 2-literal Watching
 The algorithm maintains, for each variable, a list of occurrence locations in clauses which are watched, i.e. a list of pointers to literal in clause, and a table recording changes of those pointers due to variable assignment, so that it is efficient to do/undo assignment.
 Upon variable assignment, the lists are changed accordingly and checked to see if there is any conflict or unit clause under the current assignment.
+
 ### Non-Chronological Backtracking
 1-UIP cut and conflict clause is found by repeatedly resolving the current cut and a clause, and a simulation of variable assignment is done on the learned clause to update the list and table mentioned above.
 
