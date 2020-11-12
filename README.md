@@ -21,7 +21,7 @@ All previous results are discarded except for the learned clauses.
 The variable ordering used in assignment heuristic is recalculated, based on both the original and learned clauses.
 
 ### Clause Learning Policy
-It is sometimes beneficial to discard a learned clause that is too long. So in this implementation, 5 solvers are created, numbered from 1 to 5, and the i-th solver discards a learned clause if the clause size is more than max⁡(5,n*i/5).
+It is sometimes beneficial to discard a learned clause that is too long. So in this implementation, 5 solvers are created, numbered from 1 to 5, and the i-th solver discards a learned clause if the clause size is more than max⁡(5, n*i/5).
 
 They take turns running for 0.5 seconds, until one of them finds a satisfying assignment.
 
