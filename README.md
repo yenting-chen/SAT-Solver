@@ -63,28 +63,28 @@ Instances from [SATLIB - Benchmark Problems](http://www.cs.ubc.ca/~hoos/SATLIB/b
 ### Result
 #### Uniform Random-3-SAT - 150 variables, 645 clauses, Satisfiable
 Instance Name | Time (s)
--|-
+:-:|:-:
 uf150-01.cnf | 0.01
 uf150-02.cnf | 0.04
 uf150-03.cnf | 0.49
 
 #### Uniform Random-3-SAT - 150 variables, 645 clauses, Unsatisfiable
 Instance Name | Time (s)
--|-
+:-:|:-:
 uuf150-01.cnf | 4.04
 uuf150-02.cnf | 3.18
 uuf150-03.cnf | 2.96
 
 #### Uniform Random-3-SAT - 175 variables, 753 clauses, Satisfiable
 Instance Name | Time (s)
--|-
+:-:|:-:
 uf175-01.cnf | 0.9
 uf175-02.cnf | 15.0
 uf175-03.cnf | 1.1
 
 #### Uniform Random-3-SAT - 175 variables, 753 clauses, Unsatisfiable
 Instance Name | Time (s)
--|-
+:-:|:-:
 uuf175-01.cnf | 102.8
 uuf175-02.cnf | 2459.0
-uuf175-03.cnf | 53.8 53.5
+uuf175-03.cnf | 53.8
