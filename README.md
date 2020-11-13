@@ -8,7 +8,7 @@ To do/undo variable assignment efficiently, the solver maintains, for each varia
 Upon variable assignment, the lists are changed accordingly and checked to see if there is any conflict or unit clause under the current assignment.
 
 ### Non-Chronological Backtracking
-1-UIP cut and conflict clause is found by repeatedly resolving the current cut and a clause, and a simulation of variable assignment is done on the learned clause to update the list and table mentioned above.
+1-UIP cut and conflict clause is found by repeatedly resolving the current cut and a clause, and simulation of variable assignments is done on the learned clause to update the list and table mentioned above.
 
 ### Heuristic
 Variables are sorted in decreasing order of number of occurrences in clauses. The ordering is used to assign true/false values to variables, and the values assigned are randomized by using rand() and a static seed.
