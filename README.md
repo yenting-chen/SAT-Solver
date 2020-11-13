@@ -1,5 +1,5 @@
 ## SAT Solver
-An implementation of Davis–Putnam–Logemann–Loveland (DPLL) algorithm for solving boolean satisfiability problem (SAT), implemented using C++ and DIMACS CNF parser by MiniSat.
+An implementation of Davis-Putnam-Logemann-Loveland (DPLL) algorithm for solving boolean satisfiability problem (SAT), implemented using C++ and DIMACS CNF parser by MiniSat.
 
 ## Features
 ### 2-literal Watching
