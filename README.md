@@ -100,7 +100,7 @@ uuf175-01.cnf | 102.8
 uuf175-02.cnf | 2459.0
 uuf175-03.cnf | 53.8
 
-#### SAT Competition Bejing, 410 ~ 19500 variables, 24758 ~ 103887 clauses, Satisfiable
+#### SAT Competition Bejing, 410\~19500 variables, 24758\~103887 clauses, Satisfiable
 Instance Name | Time (s)
 :-:|:-:
 4blocksb.cnf | 11.63
