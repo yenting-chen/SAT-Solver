@@ -2,7 +2,7 @@
 An implementation of Davis-Putnam-Logemann-Loveland (DPLL) algorithm for solving boolean satisfiability problem (SAT), implemented using C++ and DIMACS CNF parser by MiniSat.
 
 ## Features
-### 2-literal Watching
+### 2-Literal Watching
 To do/undo variable assignment efficiently, the solver maintains, for each variable, a list of occurrence locations in clauses which are watched, i.e. a list of pointers to literal in clause. It also maintains a table recording changes of those pointers due to variable assignment.
 
 Upon variable assignment, the lists are changed accordingly and checked to see if there is any conflict or unit clause under the current assignment.
