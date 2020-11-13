@@ -99,3 +99,10 @@ Instance Name | Time (s)
 uuf175-01.cnf | 102.8
 uuf175-02.cnf | 2459.0
 uuf175-03.cnf | 53.8
+
+#### SAT Competition Bejing, 410~19500 variables, 24758~103887 clauses, Satisfiable
+Instance Name | Time (s)
+:-:|:-:
+4blocksb.cnf | 11.63
+4blocks.cnf | 13.35
+e0ddr2-10-by-5-1.cnf | 277.10
