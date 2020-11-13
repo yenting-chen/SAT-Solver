@@ -30,6 +30,15 @@ Construct a SAT problem in DIMACS CNF format.
 
 For example, a text file with the following content:
 ```
+p cnf 8 18
+  1  2  0
+ -2 -4  0
+  3  4  0
+ -4 -5  0
+  5 -6  0
+  6 -7  0
+  6  7  0
+  7 -1  0
 ```
 
 Compile solver source code.
@@ -43,6 +52,8 @@ $ ./yasat sample.cnf
 ```
 The solver will read from `sample.cnf` and write a satisfying assignment to `sample.sat`, which looks like the following:
 ```
+s SATISFIABLE
+v -1 2 3 -4 5 6 -7 0
 ```
 If the SAT problem has no solution, the solver outputs `s UNSATISFIABLE`.
 
