@@ -69,7 +69,7 @@ Windows 8.1 Enterprise 64-bit, i7-6700k, 16GB RAM
 Microsoft Visual C++ 2019
 
 ### Test Instances
-Instances from [SATLIB - Benchmark Problems](http://www.cs.ubc.ca/~hoos/SATLIB/benchm.html).
+Instances from [SATLIB - Benchmark Problems](http://www.cs.ubc.ca/~hoos/SATLIB/benchm.html)
 
 ### Result
 #### Uniform Random-3-SAT - 150 variables, 645 clauses, Satisfiable
