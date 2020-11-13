@@ -57,10 +57,9 @@ Windows 8.1 Enterprise 64-bit, i7-6700k, 16GB RAM
 
 Microsoft Visual C++ 2019
 
-### Benchmark Problems
-Problems from [SATLIB - Benchmark Problems](http://www.cs.ubc.ca/~hoos/SATLIB/benchm.html).
+### Test Instances
+Instances from [SATLIB - Benchmark Problems](http://www.cs.ubc.ca/~hoos/SATLIB/benchm.html).
 
 ### Result
-Record maximum execution time among five problem instances for each category.
-
-150 variables with 645 clauses(sat): <0.07 second
+#### Result
+##### Result
