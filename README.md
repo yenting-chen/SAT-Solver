@@ -53,10 +53,11 @@ $ make clean
 
 ## Benchmark
 ### Environment
-Windows 8.1 Enterprise 64-bit, i7-6700k, 16GB RAM.
+Windows 8.1 Enterprise 64-bit, i7-6700k, 16GB RAM
+Microsoft Visual C++ 2019
 
-### Test Instances
-uniform random-3-sat problems from http://www.cs.ubc.ca/~hoos/SATLIB/benchm.html
+### Benchmark Problems
+Problems from [SATLIB - Benchmark Problems](http://www.cs.ubc.ca/~hoos/SATLIB/benchm.html).
 
 ### Result
 Record maximum execution time among five problem instances for each category.
