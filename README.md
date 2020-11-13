@@ -26,6 +26,11 @@ It is sometimes beneficial to discard a learned clause that is too long. So in t
 They take turns running for 10 seconds, until one of them finds a satisfying assignment.
 
 ## How to Run
+Construct a SAT problem in DIMACS CNF format.
+For example, a text file `sample.cnf` which looks like the following:
+```
+```
+
 Compile solver source code.
 ```
 $ make
@@ -33,9 +38,14 @@ $ make
 
 Run the solver.
 ```
-$ ./yasat filename.cnf
+$ ./yasat sample.cnf
 ```
-The solver will read from `filename.cnf` and write result to `filename.sat`.
+The solver will read from `sample.cnf` and write a satisfying assignment to `sample.sat`, which looks like the following:
+```
+```
+If the SAT problem has no solution, the solver outputs the following:
+```
+```
 
 Remove solver and temporary files.
 ```
